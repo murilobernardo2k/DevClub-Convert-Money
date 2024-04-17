@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body{
+    background-image: url(./Assets/pxfuel.jpg);
+
+}
+
+#mainImage {
+    width: 220px;
+    margin: 20px auto;
+    display: block;
+    opacity: 50%;
+}
+
+
+#wrapper {
+    width: 375px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #f4f4f4be;
+    padding: 44px 24px 15px;
+}
+
+#labelOne {
+    margin-top: -5px;
+}
+
+.label {
+    display: block;
+    color: #777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+select, input {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: none;
+    background: #ffffff8f;
+    margin-bottom: 24px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    appearance: none;
+    padding-left: 18px;
+    cursor: pointer;
+}
+
+option {
+    color: #555;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    
+}
+
+
+button {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background: #d5cb09;
+    color: #FFF;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 200%;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+#wrapperResultConversion {
+    border: 1px solid #c2c214;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+#valueSelected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pSelected {
+    color: #777;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#arrow {
+    margin: 15px 0;
+}
+
+#valueConverted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pConverted {
+    color: #777;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.value {
+    color: #828282;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen  and (max-height: 900px){
+
+    
+
+    #mainImage{
+        width: 150px;
+        margin-top: -1px;
+        margin-bottom: 1px;
+    }
+
+    #wrapper{
+        padding: 50px;
+        padding-bottom: 6px;
+    }
+
+        #labelOne{
+        margin-top: -30px;
+    }
+    select, input{
+        height: 25px;
+        width: 277px;
+    }
+    button{
+        width: 276px;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: -18px;
+    }
+    #wrapperResultConversion{
+        padding-top: 1px;
+        
+    }
+
+    #pSelected{
+        font-size: 15px;
+    }
+    #arrow{
+        height: 25px;
+    }
+
+    #imgConverter{
+        margin-top: -0px;
+    }
+
+}
